@@ -11,7 +11,7 @@ class ShopController extends Controller
         return view('admin.shop.create');
     }
 
-    public function create(){
+    public function create(Request $request){
 
         return redirect('admin/shop/create');
     }
