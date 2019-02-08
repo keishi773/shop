@@ -29,6 +29,9 @@ class ShopController extends Controller
         unset($form['_token']);
         unset($form['image']);
 
+        $good->fill($form);
+        $good->save();
+
         return redirect('admin/shop/create');
     }
 
