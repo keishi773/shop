@@ -1,3 +1,4 @@
+//商品の登録ページ
 @extends('layouts.admin')
 
 @section('title', '商品の登録ページ')
